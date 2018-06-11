@@ -2,8 +2,8 @@ package com.enumexample;
 
 public class EnumExample {
 	public static void main(String[] args) {
-		Verify verify=Verify.Name;
-		Verify verify2=Verify.Gender;
+		Verify verify = Verify.Name;
+		Verify verify2 = Verify.Gender;
 		System.out.println(Verify.Name);
 		System.out.println(Verify.Gender);
 		System.out.println(verify.getClass().getName());
